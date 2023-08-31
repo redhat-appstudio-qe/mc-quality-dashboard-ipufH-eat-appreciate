@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-quality-dashboard-dzg3
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-oizr-tenant/mc-quality-dashboard/frontend-quality-dashboard-dzg3@sha256:3d7a3ec6f6c5dec8189ba2bd858755490cfcdd482338f10ecef1a2727d044bc3
+        name: container-image
+        resources: {}
+status: {}
